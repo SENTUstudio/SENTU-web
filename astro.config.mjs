@@ -23,7 +23,7 @@ export default defineConfig({
     }
   },
   site: 'https://SENTUstudio.github.io',
-  base: '/SENTU-web',
+  base: '/SENTU-web/',
   integrations: [icon(), tailwind(), sitemap(), mdx(), alpinejs(), robotsTxt(), markdoc()],
   markdown: {
     extendDefaultPlugins: true,
